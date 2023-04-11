@@ -28,13 +28,6 @@ public:
             append(head,total%10);
             total /= 10;
         }
-
-        while(head!=NULL)
-        {
-            std::cout<<head->data;
-            head = head->next;
-        }
-
         return head;
 
     }
